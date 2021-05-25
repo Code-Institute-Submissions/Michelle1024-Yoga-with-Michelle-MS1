@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
     border: none;
+    font-family: Balsamiq Sans, Roboto;
 }
 body {
-    font-family: Balsamiq Sans, Roboto;
     font-weight: 300;
     color: #110d0d;
 }
@@ -19,7 +19,8 @@ body {
     letter-spacing: 4px;
 }
 #menu, #logo {
-    line-height: 27px;
+    line-height: 30px;
+    color: slategray;
 }
 #menu li {
     float: right;
@@ -47,7 +48,7 @@ body {
     width: 45%;
     color: #110d0d;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -80,23 +81,7 @@ body {
 nav .fa {
     display: none;
 }
-@media (max-width; 700px) {
-    .text-box h1{
-        font-size: 20px;
-}
-#menu ul li {
-    display: block;
-}
-#menu {
-    position: absolute;
-    background: #fff;
-    height: 100vh;
-    width: 200px;
-    top: 0;
-    right: -200px;
-    text-align: left;
-    z-index: 2;
-}
+
 nav .fa {
     display: block;
     color: #110d0d;
@@ -109,25 +94,13 @@ nav .fa {
 }
 
 /*-- About Yoga and Michelle --*/
-#about-yoga {
+#about-yoga{
     text-align: center;
-    margin: 10px 0;
-}
-.two-column-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.profile-image-wrapper img {
-    width: 50%;
-}
-.profile-content-wrapper {
-    padding: 30px;
-}
-.profile-content-wrapper p {
-    color: blueviolet;
+    background-color: rosybrown;
+    color: seashell;
 }
 
-/*-- Classes We Offer --*/
+/*-- Courses We Offer --*/
 .course {
 width: 80%;
 margin: auto;
@@ -165,6 +138,7 @@ h3 {
     .row{
         flex-direction: column;
     }
+
 /* Contact */
 .location {
     width: 80%;
@@ -173,6 +147,7 @@ h3 {
 }
 .location iframe {
     width: 100%;
+    height: 400px;
 }
 .contact-us {
     width: 80%;
@@ -202,6 +177,13 @@ h3 {
     color: #110d0d;
     font-weight: 400;
 }
+.contact-col input, .contact-col textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+}
 
 /* footer */
 
@@ -222,4 +204,22 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #382f2f;
+}
+/* media query*/
+@media (max-width; 730px) {
+    .text-box h1{
+        font-size: 20px;
+    }    
+#menu ul li {
+    display: block;
+}
+#menu {
+    position: fixed;
+    background: #fff;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
 }

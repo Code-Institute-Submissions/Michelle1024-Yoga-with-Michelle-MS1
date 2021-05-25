@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Cuprum&family=Dancing+Script&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
 </head>
 <body>
     <header>
@@ -17,13 +16,12 @@
             <h1 id="logo">Yoga with Michelle</h1>
         </a>
         <nav id="menu">
-            <i class="fas fa-window-close" onclick="hideMenu()"></i>
             <ul>
                 <li>
                     <a href="contact.html" class="active">Contact</a>
                 </li>
                 <li>
-                    <a href="classes.html">Classes</a>
+                    <a href="courses.html">Classes</a>
                 </li>
                 <li>
                     <a href="about.html">About</a>
@@ -32,9 +30,9 @@
                     <a href="index.html">Home</a>
                 </li>
             </ul>
-            <i class="fas fa-ellipsis-v" onclick="showMenu()"></i>
         </nav>
         </header>
+
 <!--Contact Us-->
         <section class="location">
 
@@ -68,7 +66,17 @@
                         </span>
                     </div>
                 </div>
-                <div class="contact-col"></div>
+                <div class="contact-col">
+
+                    <form>
+                        <input type="text" placeholder="your name" required>
+                        <input type="email" placeholder="email address" required>
+                        <input type="text" placeholder="your subject" required>
+                        <textarea rows="8" placeholder="your Message" required></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+
+                </div>
             </div>
         </section>
         <footer>
@@ -91,16 +99,5 @@
                 </li>
             </ul>
         </footer>
-<!--Javascript fot Toggle Menu-->      
-<script>
-    var menu = document.getElmentbyId("menu");
-    
-    function showMenu(){
-        menu.style.right ="0";
-    }
-    function hideMenu(){
-        menu.style.right = "-200px";
-    }
-</script>
 </body>
 </html>
