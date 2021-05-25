@@ -92,7 +92,13 @@ body {
 .about-col img {
     width: 100%;
 }
-
+.about-col h2 {
+    padding-top: 0;
+    text-align: center;
+}
+.about-col p {
+    padding: 15px 0 25px;
+}
 #about-yoga{
     text-align: center;
     background-color: rgb(243, 233, 233);
