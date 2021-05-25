@@ -1,19 +1,22 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
     font-family: Balsamiq Sans, Roboto;
 }
+
 body {
     font-weight: 300;
     color: #110d0d;
 }
 
-/* headings and logo */
+/* Headings and Logo */
 #logo {
     float: left;
-    font-size: 150%;
+    font-size: 180%;
+    margin-top: 20px;
+    margin-left: 30px;
 }
+
 #menu {
     font-size: 100%;
     letter-spacing: 4px;
@@ -78,17 +81,6 @@ body {
     background: rgba(236, 23, 130, 0.133);
     transition: 1s;
 }
-nav .fa {
-    display: none;
-}
-
-nav .fa {
-    display: block;
-    color: #110d0d;
-    margin: 10px;
-    font-size: 20px;
-    cursor: pointer;
-}
 #menu ul {
     padding: 30px;
 }
@@ -96,8 +88,8 @@ nav .fa {
 /*-- About Yoga and Michelle --*/
 #about-yoga{
     text-align: center;
-    background-color: rosybrown;
-    color: seashell;
+    background-color: rgb(167, 160, 160);
+    color: #110d0d;
 }
 
 /*-- Courses We Offer --*/
@@ -111,6 +103,7 @@ h1 {
     font-size: 36px;
     font-weight: 600;
     color: #534747;
+    border-bottom: 30px;
 }
 .row {
     margin-top: 5‰;
@@ -188,7 +181,7 @@ h3 {
 /* footer */
 
 footer {
-    height: 150px;
+    height: 200px;
 }
 
 .social-networks {
@@ -206,7 +199,7 @@ footer {
     color: #382f2f;
 }
 /* media query*/
-@media (max-width; 730px) {
+@media (max-width; 750px) {
     .text-box h1{
         font-size: 20px;
     }    
