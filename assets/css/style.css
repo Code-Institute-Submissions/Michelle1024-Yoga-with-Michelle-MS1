@@ -12,9 +12,8 @@ body {
 /* Headings and Logo */
 #logo {
     float: left;
-    font-size: 180%;
+    font-size: 150%;
     margin-top: 20px;
-    margin-left: 30px;
 }
 
 #menu {
@@ -96,7 +95,7 @@ body {
 
 #about-yoga{
     text-align: center;
-    background-color: rgb(167, 160, 160);
+    background-color: rgb(243, 233, 233);
     color: #110d0d;
 }
 /*-- Courses We Offer --*/
@@ -200,13 +199,13 @@ footer {
 }
 
 .social-networks i {
-    font-size: 160%;
+    font-size: 200%;
     margin: 1%;
     padding: 5%;
     color: #382f2f;
 }
 /* media query*/
-@media (max-width; 750px) {
+@media (max-width; 720px) {
     .text-box h1{
         font-size: 20px;
     }    
