@@ -136,13 +136,9 @@ h3 {
     font-weight: 600;
     margin: 10px 0;
 }
-.class-col: hover{
+.class-col hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
-@media(max-width: 700px)
-    .row{
-        flex-direction: column;
-    }
 
 /* Contact */
 .location {
@@ -211,7 +207,7 @@ footer {
     color: #382f2f;
 }
 /* media query*/
-@media (max-width; 720px) {
+@media (max-width: 720px) {
     .text-box h1{
         font-size: 20px;
     }    
