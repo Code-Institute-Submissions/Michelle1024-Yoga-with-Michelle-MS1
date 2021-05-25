@@ -85,13 +85,20 @@ body {
     padding: 30px;
 }
 
-/*-- About Yoga and Michelle --*/
+/*-- About Michelle and Yoga --*/
+.about-col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img {
+    width: 100%;
+}
+
 #about-yoga{
     text-align: center;
     background-color: rgb(167, 160, 160);
     color: #110d0d;
 }
-
 /*-- Courses We Offer --*/
 .course {
 width: 80%;
