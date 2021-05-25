@@ -7,8 +7,8 @@
     <meta name="description" content="Yoga, Yoga Class, Stockholm, Sweden">
     <meta name="keywords" content="yoga, yoga class, stockholm">
     <link rel="stylesheet" href="assets/css/style.css">
-    
-    <title>About Yoga and Michelle</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Cuprum&family=Dancing+Script&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
 </head>
 <body>
@@ -23,9 +23,6 @@
                     <a href="contact.html">Contact</a>
                 </li>
                 <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
                     <a href="classes.html">Classes</a>
                 </li>
                 <li>
@@ -37,9 +34,10 @@
             </ul>
             <i class="fas fa-ellipsis-v" onclick="showMenu()"></i>
         </nav>
-
+        </header>
+<!--About Yoga and Michelle page-->
         <section class="about-yoga">
-            <h1>About Yoga</h1>
+            <h2>About Yoga</h2>
             <p>Movements, breathing exercises, guided meditations, and relaxation techniques are just some of the tools that yoga has to offer. Yoga is a way to maintain health and well-being in a stressful society but also a way to increase self-awareness and transformation.</p>
             <p>Practicing yoga has many benefits for mental and physical health. More and more scientific research is done on yoga, which means that we now have scientific support for most of the benefits. Here are some of them:</p>
             <ul>
@@ -59,7 +57,9 @@
                 <li>Increases ability to concentrate</li>
                 <li>Positive effect on the digestive system</li>
                 <li>Gives you inner strength and builds awareness</li>
-            </ul>
+            </ul>   
+        </section>
+        <section>
             <h2>About Michelle</h2>
             <div class="content-wrapper">
                 <div class="two-column-wrapper">
@@ -73,9 +73,36 @@
                 <p>Yoga is not just doing a few poses once you've rolled out your mat. It is a way of life. It encompasses a variety of practices you can do sitting quietly at your desk or even when teaching a child a life skill. Yoga is a practice of love that welcomes us to turn inward while seeking connections with others, as well as ourselves. I invite you to practice with me... to begin your own journey.</p>
             </div>
         </section>
-
         <footer>
-            
+            <ul class="social-networks">
+                <li>
+                    <a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://youtube.com" target="_blank" rel="noopener"
+                        aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
         </footer>
+<!--Javascript fot Toggle Menu-->      
+<script>
+    var menu = document.getElmentbyId("menu");
+    
+    function showMenu(){
+        menu.style.right ="0";
+    }
+    function hideMenu(){
+        menu.style.right = "-200px";
+    }
+</script>
 </body>
 </html>
