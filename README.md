@@ -1,4 +1,4 @@
-Based on a fictional business offering yoga classes in Stockholm, this website was built for educational purposes as part of the Code Institute's Full Stack Development course. This responsive and user centric website was designed using the principles of User Experience Design and developed using HTML and CSS. The live website can be found here .
+Based on a fictional business offering yoga classes in Stockholm, this website was built for educational purposes as part of the Code Institute's Full Stack Development course. This responsive and user centric website was designed using the principles of User Experience Design and developed using HTML and CSS. The live website can be found here https://michelle1024.github.io/Yoga-with-Michelle-MS1/index.html.
 
 Strategy
 
@@ -69,19 +69,19 @@ This section will feature a hero image with a welcome message and a call for act
 As a business owner I want to feature a logo and a welcome message so that I can raise my business brand awareness.
 As a business owner, I want a call for action so that I can generate leads.
 
-About us section:
-
-This section will feature the profile, a photo and the relevant qualification of the business owner to provide users with information about the business' credentials. And information about the benefits of yoga.
-
-As a returning visitor, I want to read more about the company so that I can assess its credentials and professionalism.
-As a business owner, I want to feature my profile so that I can raise my company's brand awareness and credentials.
-
 Courses we offer section:
 This section will feature a description of the three different yoga courses that the business offers.
 
 As a first time user, I want to read about the company's yoga lessons so that I can assess whether they fit my needs.
 
 As a business owner, I want to provide clear and concise information so that I can advertise the types of yoga lessons we offer.
+
+About us section:
+
+This section will feature the profile, a photo and the relevant qualification of the business owner to provide users with information about the business' credentials. And information about the benefits of yoga.
+
+As a returning visitor, I want to read more about the company so that I can assess its credentials and professionalism.
+As a business owner, I want to feature my profile so that I can raise my company's brand awareness and credentials.
 
 Contact us section:
 The contact page will feature the business' contact details, a map and a form to allow users to contact the business directly via the website. The form will include an option to select the subject of the message so that users can either make a general query or arrange a meet and greet.
