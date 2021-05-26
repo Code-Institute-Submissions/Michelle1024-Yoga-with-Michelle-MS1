@@ -226,7 +226,8 @@ footer {
 /* for small screen sizes from 725px wide and down */
 @media screen and (max-width: 725px) {
     .text-box {
-        font-size: 8px;
+        width: 75%;
+        font-size: 9px;
     }    
     #logo {
         font-size: 22px;
@@ -247,6 +248,7 @@ footer {
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
     .text-box{
+        width: 75%;
         font-size: 16px;
     }    
     #logo {
